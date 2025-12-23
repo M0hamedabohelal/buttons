@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional UI Kit Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="h1">Professional UI Kit</h1>
+    <p class="label subtitle">
+      A clean, responsive styling kit with modern Flexbox/Grid.
+    </p>
+    <div class="grid-demo">
+      <!-- BUTTONS SECTION -->
+      <section class="card">
+        <h2 class="h2">Buttons</h2>
+        <div class="flex-row mb-md">
+          <button class="btn btn--primary">Primary Action</button>
+          <button class="btn btn--secondary">Secondary</button>
+          <button class="btn btn--ghost">Ghost Button</button>
+        </div>
+        <p class="label">States (Focus / Active)</p>
+        <div class="flex-row">
+          <!-- Simulating focus via style just for demo, real users click to see -->
+          <button class="btn btn--primary">Hover Me</button>
+        </div>
+      </section>
+      <!-- INPUTS SECTION -->
+      <section class="card">
+        <h2 class="h2">Form Inputs</h2>
+        <div class="input-group">
+          <label for="username" class="label">Username</label>
+          <input
+            type="text"
+            id="username"
+            class="input-field"
+            placeholder="Enter your username"
+          />
+        </div>
+        <div class="input-group">
+          <label for="email" class="label">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            class="input-field"
+            placeholder="name@company.com"
+          />
+        </div>
+      </section>
+      <!-- DROPDOWNS SECTION -->
+      <section class="card">
+        <h2 class="h2">Dropdowns</h2>
+        <div class="input-group">
+          <label for="role" class="label">Select Role</label>
+          <select id="role" class="select-field">
+            <option value="" disabled selected>Choose an option...</option>
+            <option value="admin">Administrator</option>
+            <option value="editor">Editor</option>
+            <option value="viewer">Viewer</option>
+          </select>
+        </div>
+      </section>
+      <!-- TEXTAREA SECTION -->
+      <section class="card">
+        <h2 class="h2">Text Area</h2>
+        <div class="input-group">
+          <label for="bio" class="label">Bio</label>
+          <textarea
+            id="bio"
+            class="textarea-field"
+            placeholder="Tell us a little about yourself..."
+          ></textarea>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
